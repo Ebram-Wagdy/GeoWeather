@@ -1,0 +1,29 @@
+
+  body {
+    transition: background 0.5s ease;
+    color: white;
+   background: #020024;
+  background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+  }
+
+  .card {
+    border-radius: 15px;
+    background: rgba(255,255,255,0.2);
+    backdrop-filter: blur(10px);
+  }
+
+  h1, h2, h5 {
+    color: white;
+  }
+
+  #weatherIcon {
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.box{
+  display: flex;
+  justify-content: center;
+}
+
+
+
