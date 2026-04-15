@@ -25,5 +25,30 @@
   justify-content: center;
 }
 
+.search-box {
+  width: 25%;
+  margin: auto;
+  transition: all 0.3s ease;
+}
 
+
+@media (max-width: 992px) {
+  .search-box {
+    width: 50%;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .search-box {
+    width: 75%;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .search-box {
+    width: 90%;
+  }
+}
 
